@@ -1,0 +1,50 @@
+2023-08-026 Version 1.4
+1. Add automatic backlight brightness function, no operation for 5 minutes, and automatically set the backlight to the lowest brightness;
+2. Fix the bug where the output negative terminal Mos did not close properly after shutdown;
+
+2023-08-01 Version 1.3
+1. Change the reverse protection to settable. In some situations where it is easy to trigger by mistake, users can turn off the reverse protection, which is enabled by default;
+2. Add the automatic output function after startup to facilitate special applications for customers, which is disabled by default;
+3. The above two items can be set through menu items  or PC (V1.0.5);
+4. Fix the bug where the menu item language does not restored to default after resetting
+5. Fix the bug where the preset group was not restored to group 0 after resetting;
+6. Fix the bug where the output was not closed after resetting;
+
+2022-10-25 Version 1.2
+1. Adapt to new hardware V1.2 (adjust the position of components to facilitate production and processing)
+2. Firmware is compatible with V1.1 hardware and can be upgraded or not
+
+2022-07-01 Version 1.1
+1. The color of the main interface is improved, and the prompt of parameter setting bit is reversed
+2. Different color indications for USBD/USBH make it easy to distinguish between different USB modes
+3. Extend parameter settings and menu interface timeout time
+4. Increase voltage, current, and temperature compensation function for more accurate output
+5. Under voltage protection and reverse connection protection prompt are added to the main interface
+6. Add alarm prompts for abnormal states (overvoltage, overcurrent, overheating, etc.)
+
+2022-06-15 Version 1.0
+1. First release
+
+Èí¼þ¸üÐÂ·­Òë
+
+Latest version V1.0.4
+
+-------V1.0.4-------
+1. Adapt to hardware V1.2 (If the hardware version doesn't mismatch when updating, please use the latest software version)
+2. Adjust the operation method for saving data
+3. Add x-axis time base display
+4. The preset output group directly displays the set voltage and current
+
+-------V1.0.3-------
+1. Optimize for high CPU usage issues
+
+-------V1.0.2-------
+1. Software firmware update bug
+
+-------V1.0.1-------
+1. Change the x-axis of the waveform to time calculation
+2. Remove the log window
+3. Optimize undervoltage status bugs
+
+-------V1.0.0-------
+1. Initial version of ATK-DP100 digtal power supply sofware
